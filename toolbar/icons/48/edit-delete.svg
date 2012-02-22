@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="48px" width="48px" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <defs>
+  <filter id="filter1402-6" width="1.2704875" y="-0.23404884" x="-0.1352438" height="1.4680977" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="1.1763393"/>
+  </filter>
+  <filter id="filter1392-1" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="0.35290179"/>
+  </filter>
+  <linearGradient id="linearGradient1730" y2="178.75" gradientUnits="userSpaceOnUse" x2="318.94" gradientTransform="matrix(1,0,0,1.0215056,-0.01115,-5.8410512)" y1="188.48" x1="322.47">
+   <stop stop-color="#e08980" offset="0"/>
+   <stop stop-color="#ecb8b3" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient1732" y2="179.52" gradientUnits="userSpaceOnUse" x2="316.5" gradientTransform="matrix(1,0,0,1.0215056,0,-3.8387571)" y1="189.02" x1="319.19">
+   <stop stop-color="#ef2929" offset="0"/>
+   <stop stop-color="#f68888" offset="1"/>
+  </linearGradient>
+  <radialGradient id="radialGradient1734" gradientUnits="userSpaceOnUse" cy="185.14" cx="315.88" gradientTransform="matrix(2.5678358,0,0,1.6135477,-495.24396,-111.34155)" r="6.9191">
+   <stop stop-color="#eac9c3" offset="0"/>
+   <stop stop-color="#dfaea5" stop-opacity="0" offset="1"/>
+  </radialGradient>
+  <radialGradient id="radialGradient1736" gradientUnits="userSpaceOnUse" cy="186.76" cx="314.74" gradientTransform="matrix(1.9049428,0,0,1.7883119,-284.81779,-147.22221)" r="8.2884">
+   <stop stop-color="#edd6d1" offset="0"/>
+   <stop stop-color="#edd6d1" stop-opacity="0" offset="1"/>
+  </radialGradient>
+  <radialGradient id="radialGradient1806" gradientUnits="userSpaceOnUse" cx="313.73" cy="184.16" r="9.4561" gradientTransform="matrix(4.1253276,-0.06809918,0.01466137,0.88816079,-983.12001,42.179334)">
+   <stop stop-color="#FFF" offset="0"/>
+   <stop stop-color="#FFF" stop-opacity="0" offset="1"/>
+  </radialGradient>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+    <dc:date/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Jakub Steiner</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:subject>
+     <rdf:Bag>
+      <rdf:li>edit</rdf:li>
+      <rdf:li>delete</rdf:li>
+      <rdf:li>shredder</rdf:li>
+     </rdf:Bag>
+    </dc:subject>
+    <dc:publisher>
+     <cc:Agent>
+      <dc:title>Novell, Inc.</dc:title>
+     </cc:Agent>
+    </dc:publisher>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title/>
+     </cc:Agent>
+    </dc:contributor>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <g style="enable-background:new;" transform="matrix(2.0977523,0,0,2.0977523,-633.61745,-371.24275)">
+  <path opacity="0.55825243" style="enable-background:new;color:#000000;" d="m312.5,184.12-9.375,12,14.438-0.0625,6.4375-12-11.5,0.0625z" fill-rule="nonzero" filter="url(#filter1402-6)" fill="#000"/>
+  <path opacity="0.52912622" style="enable-background:new;color:#000000;" d="m313,183.94-8.7195,10.927c-0.30288,0.53466-0.48193,1.1921,0.6024,1.0856l10.022,0.10329c1.4914-0.29414,3.0266-0.48603,4.0573-1.8549l4.4657-9.9663-10.43-0.3z" fill-rule="nonzero" filter="url(#filter1392-1)" fill="#000"/>
+  <path stroke-linejoin="miter" style="enable-background:new;color:#000000;" d="m312.32,178.63,9.6752-0.0297c0.61872-0.0903,1.3258,0.63203,1.3258,1.3544v4.1542l-4.4852,8.9179c-0.80681,1.9529-3.4627,2.7401-5.3234,2.8104l-7.4067-0.0268c-1.1178,0.0288-2.4268-0.60328-1.919-2.2514l1.942-6.7722,5.0753-7.7032c0.22709-0.26222,0.43111-0.54212,1.116-0.45364v0.00009z" stroke-dashoffset="0" stroke="url(#linearGradient1732)" stroke-linecap="round" stroke-miterlimit="4" stroke-dasharray="none" stroke-width="0.47670069" fill="url(#linearGradient1730)"/>
+  <path style="enable-background:new;color:#000000;" d="m304.25,195.47,9.986,0.10826c1.1349-0.21139,2.2009-0.53754,3.0985-1.1445l0.75381-7.5932-11.567-0.0276-2.2711,8.657v-0.00002z" fill-rule="nonzero" fill="url(#radialGradient1734)"/>
+  <path style="enable-background:new;color:#000000;" d="m317.41,194.36,1.0652-7.1206,4.4689-7.8604c0.0296-0.27049-0.1616-0.329-0.41698-0.38554l-4.2784,7.5003-4.1311-0.0519c-0.60022,0.52688-1.3536,0.84162-2.1191,0.0462l-5.3197-0.0139-0.35323,0.50004,5.6562-0.005c0.4774,0.65669,1.367,0.49517,2.1411-0.0423l3.6085,0.0278-1.2811,8.0262c0.33128-0.19564,0.70071-0.35312,0.95964-0.62111v-0.00002,0.00014z" fill-rule="nonzero" fill="url(#radialGradient1736)"/>
+  <path opacity="0.33495148" stroke-linejoin="miter" style="enable-background:new;color:#000000;" d="m322.24,179.05-10.057,0.0315c-0.0314,0.002-0.0629,0.002-0.0943,0-0.23539-0.0304-0.24008-0.007-0.2516,0-0.008,0.005-0.0907,0.0826-0.15725,0.15725-0.0267,0.0299-0.0231,0.0172-0.0629,0.0629l-5.0005,7.6737-2.1071,7.5479c0.00023,0.0105,0.00023,0.021,0,0.0315-0.12577,0.41356-0.0882,0.52811-0.0943,0.53464,3.7675,0.48486,7.6856,0.5781,11.85,0.0315,0.4082-0.006,0.69927-0.0262,0.84913-0.0943,0.14988-0.0682,0.27824-0.14712,0.40885-0.66044,0.007-0.0428,0.0173-0.0849,0.0315-0.12581l5.2835-10.473v-4.057c0-0.13223-0.0823-0.35755-0.22014-0.50321-0.13799-0.14564-0.29-0.15622-0.28307-0.15724-0.0314,0.002-0.0629,0.002-0.0943,0l-0.00018-0.00021z" stroke-dashoffset="0" stroke="url(#radialGradient1806)" stroke-linecap="round" stroke-miterlimit="4" stroke-width="0.47670078" fill="none"/>
+ </g>
+</svg>

@@ -1,0 +1,143 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+
+hr{display:block;clear:both;}
+body{padding:20px;font-family:"Segoe UI",Verdana,Tahoma,Helvetica,sans-serif;font-size:11px;}
+
+@highlightBackground : #fdeeb3;
+@highlightBorder : #f1c43f;
+
+@gradientLight: #FEFEFE;
+@gradientDark: #EAEDF1;
+@gradientBorder : #B6BABF;
+
+@textColor: #444444;
+
+@borderRadius: 3px;
+
+.toolbar-gradient{
+	background: @gradientDark; /* Old browsers */
+	border:1px solid @gradientBorder;
+	
+	background: -moz-linear-gradient(top, @gradientLight 0%, @gradientDark 100%); /* FF3.6+ */
+	background: -webkit-linear-gradient(top, @gradientLight 0%,@gradientDark 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, @gradientLight 0%,@gradientDark 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, @gradientLight 0%,@gradientDark 100%); /* IE10+ */
+	background: linear-gradient(top, @gradientLight 0%,@gradientDark 100%); /* W3C */
+}
+
+.toolbar-large{
+	.edit-undo a:before{content:url("icons/48/edit-undo.svg");}
+	.edit-delete a:before{content:url("icons/48/edit-delete.svg");}
+	.edit-edit a:before{content:url("icons/48/edit-edit.svg");}
+	.edit-copy a:before{content:url("icons/48/edit-copy.svg");}
+	.edit-pointer a:before{content:url("icons/48/edit-select.svg");}
+}
+
+.toolbar-small{
+	.edit-undo a:before{content:url("icons/22/edit-undo.png");}
+	.edit-delete a:before{content:url("icons/22/edit-delete.png");}
+	.edit-edit a:before{content:url("icons/22/edit-edit.png");}
+	.edit-copy a:before{content:url("icons/22/edit-copy.png");}
+	.edit-pointer a:before{content:url("icons/22/edit-select.png");}
+}
+
+
+.toolbar{
+	&{
+		.toolbar-gradient;
+		overflow:hidden;
+		border-radius:@borderRadius;
+	}
+	
+	li{display:inline;}
+	
+	a{
+		float:left;
+		display:block;
+		text-align:center;
+		position:relative;
+		border:1px solid rgba(0,0,0,0);
+		border-radius:@borderRadius;
+		color:@textColor;
+		text-decoration:none;
+	}
+	a:before{
+		content: "";
+		display:block;
+		position:absolute;
+/*
+		background:@gradientBorder;
+*/
+		opacity:.8;
+	}
+	a:hover{
+		border-color:@highlightBorder;
+		background:@highlightBackground;
+	}
+	a:hover:before{
+		opacity:1;
+	}
+		
+	/**
+	 * Place a divider after this element.
+	 */
+	.divider-after a{
+		&{
+			margin-right:31px;
+		}
+	
+		&:after{
+			content:" ";
+			display:block;
+			height:100%;
+			width:1px;
+			background:@gradientDark;
+			border-right:1px solid @gradientLight;
+			position:absolute;
+			top:0;
+			right: -18px;
+		}
+	}
+	
+	
+
+	&.toolbar-small{
+		
+		&{
+			padding:2px;
+		}
+		a{
+			padding:2px 2px 2px 28px;
+			line-height:24px;
+		}
+		a:before{
+			width:24px;
+			height:24px;
+			left:2px;
+			top:50%;
+			margin-top:-12px;
+		}
+		
+
+	}
+
+	&.toolbar-large{
+
+		&{
+			padding:5px;
+		}
+		
+		a{
+			padding:55px 8px 5px;
+			min-width:50px;
+		}
+		a:before{
+			left:50%;
+			margin-left:-24px;
+			top:5px;
+			width:48px;
+			height:48px;
+		}
+
+	}
+}
