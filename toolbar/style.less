@@ -33,6 +33,7 @@ body{padding:20px;font-family:"Segoe UI",Verdana,Tahoma,Helvetica,sans-serif;fon
 	.edit-pointer a:before{content:url("icons/48/edit-select.svg");}
 }
 
+/* Can't work out how to scale the SVG images. D: */
 .toolbar-small{
 	.edit-undo a:before{content:url("icons/22/edit-undo.png");}
 	.edit-delete a:before{content:url("icons/22/edit-delete.png");}
@@ -49,7 +50,10 @@ body{padding:20px;font-family:"Segoe UI",Verdana,Tahoma,Helvetica,sans-serif;fon
 		border-radius:@borderRadius;
 	}
 	
-	li{display:inline;}
+	li{
+		display:inline-block;
+		position:relative;
+	}
 	
 	a{
 		float:left;
@@ -81,9 +85,9 @@ body{padding:20px;font-family:"Segoe UI",Verdana,Tahoma,Helvetica,sans-serif;fon
 	/**
 	 * Place a divider after this element.
 	 */
-	.divider-after a{
-		&{
-			margin-right:31px;
+	.divider-after{
+		a{
+			margin-right:30px;
 		}
 	
 		&:after{
@@ -95,7 +99,7 @@ body{padding:20px;font-family:"Segoe UI",Verdana,Tahoma,Helvetica,sans-serif;fon
 			border-right:1px solid @gradientLight;
 			position:absolute;
 			top:0;
-			right: -18px;
+			right: 13px;
 		}
 	}
 	
