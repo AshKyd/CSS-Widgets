@@ -1,0 +1,24 @@
+.sidebar{
+
+	.heading{
+		.toolbar-gradient;
+		font-weight:bold;
+		padding:@boxPadding;
+		position:relative;
+		text-shadow:1px 1px 0 @gradientLight;
+		border-style:none none solid; /* the container already has a border */
+		margin: -@boxPadding -@boxPadding @boxPadding;
+	}
+	
+	& > *{
+		border:1px solid @gradientBorder;
+		padding:@boxPadding;
+	}
+	
+	& > * + *{
+		border-top:none;
+	}
+
+}
+
+
