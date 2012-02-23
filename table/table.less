@@ -13,3 +13,27 @@ table{
 		border:1px solid @gradientDark;
 	}
 }
+
+.dataTables_wrapper{
+	/* Kinda wanted to be able to style these with CSS, but will have to
+	 * settle for manually styling them.
+	 */
+	.sorting{
+		.toolbar-gradient-icon("table/icons/arrow-sortable-vertical.svg");
+	}
+	.sorting_asc{
+		.toolbar-gradient-icon("table/icons/arrow-up.svg");
+	}
+	.sorting_desc{
+		.toolbar-gradient-icon("table/icons/arrow-down.svg");
+	}
+	.sorting,
+	.sorting_asc,
+	.sorting_desc{
+		background-position:@boxPaddingSmall center,0,0;
+		background-repeat:no-repeat;
+		padding-left:@boxPaddingSmall*2+12;
+		cursor:pointer;
+	}
+	
+}

@@ -26,3 +26,22 @@ body{padding:20px;font-family:"Segoe UI",Verdana,Tahoma,Helvetica,sans-serif;fon
 	background: -ms-linear-gradient(top, @gradientLight 0%,@gradientDark 100%); /* IE10+ */
 	background: linear-gradient(top, @gradientLight 0%,@gradientDark 100%); /* W3C */
 }
+
+
+.border-radius (@radius) {
+  border-radius: @radius;
+  -moz-border-radius: @radius;
+  -webkit-border-radius: @radius;
+}
+
+
+.toolbar-gradient-icon (@icon) {
+	background: @gradientDark; /* Old browsers */
+	border:1px solid @gradientBorder;
+	
+	background: url("@{icon}"), -moz-linear-gradient(top, @gradientLight 0%, @gradientDark 100%); /* FF3.6+ */
+	background: url("@{icon}"), -webkit-linear-gradient(top, @gradientLight 0%,@gradientDark 100%); /* Chrome10+,Safari5.1+ */
+	background: url("@{icon}"), -o-linear-gradient(top, @gradientLight 0%,@gradientDark 100%); /* Opera 11.10+ */
+	background: url("@{icon}"), -ms-linear-gradient(top, @gradientLight 0%,@gradientDark 100%); /* IE10+ */
+	background: url("@{icon}"), linear-gradient(top, @gradientLight 0%,@gradientDark 100%); /* W3C */
+}
