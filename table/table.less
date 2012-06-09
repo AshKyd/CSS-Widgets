@@ -3,6 +3,15 @@ table{
 	&{
 		border:1px solid @gradientBorder;
 	}
+	&.selection tr{
+		&{
+			cursor:default;
+		}
+		&:hover{
+			background:@highlightBackground;
+		}
+		
+	}
 	td,th{
 		padding:@boxPaddingSmall @boxPaddingSmall*2;
 	}

@@ -1,5 +1,7 @@
 
 .toolbar-large{
+	.document-new a:before{content:url("icons/48/document-new.svg");}
+	.document-save a:before{content:url("icons/48/document-save.svg");}
 	.edit-undo a:before{content:url("icons/48/edit-undo.svg");}
 	.edit-delete a:before{content:url("icons/48/edit-delete.svg");}
 	.edit-edit a:before{content:url("icons/48/edit-edit.svg");}
@@ -9,6 +11,8 @@
 
 /* Can't work out how to scale the SVG images. D: */
 .toolbar-small{
+	.document-new a:before{content:url("icons/22/document-new.png");}
+	.document-save a:before{content:url("icons/22/document-save.png");}
 	.edit-undo a:before{content:url("icons/22/edit-undo.png");}
 	.edit-delete a:before{content:url("icons/22/edit-delete.png");}
 	.edit-edit a:before{content:url("icons/22/edit-edit.png");}
@@ -21,7 +25,7 @@
 	&{
 		.toolbar-gradient;
 		overflow:hidden;
-		border-radius:@borderRadius;
+		.border-radius(@borderRadius);
 	}
 	
 	li{
@@ -35,25 +39,35 @@
 		text-align:center;
 		position:relative;
 		border:1px solid rgba(0,0,0,0);
-		border-radius:@borderRadius;
-		color:@textColor;
 		text-decoration:none;
+		color:ButtonText;
 	}
 	a:before{
 		content: "";
 		display:block;
 		position:absolute;
-/*
-		background:@gradientBorder;
-*/
 		opacity:.8;
 	}
-	a:hover{
-		border-color:@highlightBorder;
+	a:hover,
+	a:focus,
+	a:active{
 		background:@highlightBackground;
+		color:@textColor;
+		border:1px solid @highlightBorder;
 	}
-	a:hover:before{
+	
+	a:hover:before,
+	a:focus:before,
+	a:active:before{
 		opacity:1;
+	}
+	
+	a:active{
+		border-color: @highlightBorder;
+	}
+	
+	a:active:before{
+		margin:1px 0 0 1px;
 	}
 		
 	/**

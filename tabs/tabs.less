@@ -1,0 +1,66 @@
+.tabs{
+
+	&{overflow:hidden;}
+	.tab-header{
+		&{
+			width:1000em;
+			float:left;
+			position:relative;
+		}
+		
+		/* This is the bar at the bottom */
+		&:after{
+			content: " ";
+			height:4px;
+			background:@highlightBorder;
+			position:absolute;
+			bottom:0;
+			left:0;
+			width:100%;
+			z-index:1;
+		}
+
+		li{
+			display:block;
+			float:left;
+			padding:.5em 26px .5em 1em;
+			margin-top:2px;
+			position:relative;
+			z-index:0;
+		}
+
+		li:hover{
+			cursor:default;
+			background:@highlightBackground;
+		}
+
+		li.active{
+			border-top:2px solid @highlightBorder;
+			border-bottom:none;
+			background:white;
+			margin-top:0;
+			border-bottom:3px solid white;
+			z-index:2;
+		}
+		
+		.close{
+			position:absolute;
+			right:5px;
+			top:50%;
+			margin-top:-8px;
+			opacity:.5;
+		}
+		
+		li .close:hover{
+			opacity:1;
+			background-color:@gradientDark;
+		}
+		
+	}
+
+	.tab{
+		clear:both;
+		background:white;
+		position:relative;
+	}
+}

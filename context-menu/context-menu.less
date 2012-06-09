@@ -1,0 +1,37 @@
+.context-menu,
+.context-menu ul{
+	background:Window;
+	color:WindowText;
+	position:absolute;
+	border:1px solid WindowFrame;
+	box-shadow:0 0 4px rgba(0,0,0,.1);
+}
+
+.context-menu a,
+.context-menu span{
+	display:block;
+	padding:0 5px 0 28px;
+	color:WindowText;
+	text-decoration:none;
+	cursor:default;
+}
+
+.context-menu li{
+	position:relative;
+	line-height:22px;
+	border:1px solid Window;
+}
+
+.context-menu li:hover{
+	background:Highlight;
+	border-color:Highlight;
+}
+.context-menu li:hover > ul{
+	display:block;
+}
+
+.context-menu ul{
+	top:-1px;
+	left:100%;
+	display:none;
+}
