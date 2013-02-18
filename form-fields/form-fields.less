@@ -1,0 +1,35 @@
+label{
+	display:block;
+}
+
+input,
+textarea{
+	font-size:1em;
+	background:white;
+	color:black;
+	border:1px solid black;
+	border-color:  @gradientBorder @gradientDark @gradientDark @gradientBorder;
+	border-radius:2px;
+	box-shadow: 1px 1px 4px rgba(128,128,128,.1) inset;
+	padding:@boxPaddingSmall;
+	margin:@boxPaddingSmall;
+}
+
+textarea{
+    width:66%;
+    height:7em;
+}
+
+textarea:focus,
+input[type="text"]:focus{
+    border-color:@highlightBorder;
+	box-shadow: 0px 0px 4px @highlightBackground;
+	outline:none;
+}
+
+
+input[type="submit"]{
+	border-color: @highlightBorder;
+	background: @highlightBackground;
+	padding:@boxPaddingSmall @boxPadding;
+}
